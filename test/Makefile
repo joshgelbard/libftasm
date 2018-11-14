@@ -1,0 +1,23 @@
+NAME = testrunner
+
+CC = gcc
+CFLAGS += -Wall -Wextra -pedantic -I..
+LDFLAGS += -L..
+LDLIBS += -lfts
+
+OBJ = $(NAME).o \
+	  test_ft_bzero.o \
+
+all: $(NAME)
+
+$(NAME): $(OBJ)
+
+clean:
+	rm $(OBJ)
+
+fclean: clean
+	rm $(NAME)
+
+re: fclean all
+
+.PHONY: all clean fclean re
