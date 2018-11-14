@@ -7,10 +7,11 @@ LDLIBS += -lfts
 
 OBJ = $(NAME).o \
 	  test_ft_bzero.o \
+	  test_ft_strcat.o \
 
 all: $(NAME)
 
-$(NAME): $(OBJ)
+$(NAME): $(OBJ) ../libfts.a
 
 clean:
 	rm $(OBJ)

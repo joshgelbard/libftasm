@@ -7,4 +7,5 @@
 # include <string.h>
 
 void test_ft_bzero(void);
+void test_ft_strcat(void);
 #endif

@@ -3,4 +3,5 @@
 # include <string.h>
 
 void	ft_bzero(void *s, size_t n);
+char	*ft_strcat(char *s1, const char *s2);
 #endif
