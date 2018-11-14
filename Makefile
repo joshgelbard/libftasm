@@ -6,6 +6,7 @@ ARFLAGS += -s
 
 OBJ = ft_bzero.o \
 	  ft_strcat.o \
+	  ft_isalpha.o \
 
 all: $(NAME)
 
