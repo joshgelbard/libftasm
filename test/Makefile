@@ -16,10 +16,10 @@ all: $(NAME)
 $(NAME): $(OBJ) ../libfts.a
 
 clean:
-	rm $(OBJ)
+	$(RM) $(OBJ)
 
 fclean: clean
-	rm $(NAME)
+	$(RM) $(NAME)
 
 re: fclean all
 
