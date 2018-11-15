@@ -11,5 +11,6 @@ int	main(void)
 	test_ft_isprint();
 	test_ft_toupper();
 	test_ft_tolower();
+	test_ft_puts();
 	return 0;
 }

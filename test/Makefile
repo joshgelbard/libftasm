@@ -15,6 +15,7 @@ OBJ = $(NAME).o \
 	  test_ft_isprint.o \
 	  test_ft_toupper.o \
 	  test_ft_tolower.o \
+	  test_ft_puts.o \
 
 all: $(NAME)
 

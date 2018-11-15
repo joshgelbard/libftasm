@@ -13,6 +13,7 @@ OBJ = ft_bzero.o \
 	  ft_isprint.o \
 	  ft_toupper.o \
 	  ft_tolower.o \
+	  ft_puts.o \
 
 all: $(NAME)
 
