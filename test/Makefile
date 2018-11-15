@@ -10,6 +10,7 @@ OBJ = $(NAME).o \
 	  test_ft_strcat.o \
 	  test_ft_isalpha.o \
 	  test_ft_isdigit.o \
+	  test_ft_isalnum.o \
 
 all: $(NAME)
 
