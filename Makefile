@@ -9,6 +9,7 @@ OBJ = ft_bzero.o \
 	  ft_isalpha.o \
 	  ft_isdigit.o \
 	  ft_isalnum.o \
+	  ft_isascii.o \
 
 all: $(NAME)
 

@@ -13,4 +13,5 @@ void test_ft_strcat(void);
 void test_ft_isalpha(void);
 void test_ft_isdigit(void);
 void test_ft_isalnum(void);
+void test_ft_isascii(void);
 #endif
