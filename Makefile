@@ -11,6 +11,7 @@ OBJ = ft_bzero.o \
 	  ft_isalnum.o \
 	  ft_isascii.o \
 	  ft_isprint.o \
+	  ft_toupper.o \
 
 all: $(NAME)
 

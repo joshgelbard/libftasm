@@ -9,5 +9,6 @@ int	main(void)
 	test_ft_isalnum();
 	test_ft_isascii();
 	test_ft_isprint();
+	test_ft_toupper();
 	return 0;
 }
