@@ -12,6 +12,7 @@ OBJ = $(NAME).o \
 	  test_ft_isdigit.o \
 	  test_ft_isalnum.o \
 	  test_ft_isascii.o \
+	  test_ft_isprint.o \
 
 all: $(NAME)
 
