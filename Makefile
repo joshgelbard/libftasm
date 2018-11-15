@@ -20,6 +20,9 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	$(AR) $(ARFLAGS) $(NAME) $(OBJ)
 
+debug: ASFLAGS += -g -Fdwarf
+debug: all
+
 clean:
 	$(RM) $(OBJ)
 
