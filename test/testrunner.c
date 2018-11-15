@@ -10,5 +10,6 @@ int	main(void)
 	test_ft_isascii();
 	test_ft_isprint();
 	test_ft_toupper();
+	test_ft_tolower();
 	return 0;
 }

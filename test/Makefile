@@ -14,6 +14,7 @@ OBJ = $(NAME).o \
 	  test_ft_isascii.o \
 	  test_ft_isprint.o \
 	  test_ft_toupper.o \
+	  test_ft_tolower.o \
 
 all: $(NAME)
 

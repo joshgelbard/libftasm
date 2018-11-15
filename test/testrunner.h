@@ -16,4 +16,5 @@ void test_ft_isalnum(void);
 void test_ft_isascii(void);
 void test_ft_isprint(void);
 void test_ft_toupper(void);
+void test_ft_tolower(void);
 #endif
