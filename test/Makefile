@@ -17,6 +17,7 @@ OBJ = $(NAME).o \
 	  test_ft_tolower.o \
 	  test_ft_puts.o \
 	  test_ft_strlen.o \
+	  test_ft_memset.o \
 
 all: $(NAME)
 

@@ -13,5 +13,6 @@ int	main(void)
 	test_ft_tolower();
 	test_ft_puts();
 	test_ft_strlen();
+	test_ft_memset();
 	return 0;
 }
