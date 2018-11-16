@@ -20,8 +20,10 @@ void	test_ft_bzero(void)
 		ft_bzero(s2, sz - 1);
 		assert(!memcmp(s, s2, sz));
 		bzero(s, sz);
-		bzero(s2, sz);
+		ft_bzero(s2, sz);
 		assert(!memcmp(s, s2, sz));
+		free(s);
+		free(s2);
 	}
 	printf("%s: ok\n", __func__);
 }
