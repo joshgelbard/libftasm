@@ -18,4 +18,5 @@ void test_ft_isprint(void);
 void test_ft_toupper(void);
 void test_ft_tolower(void);
 void test_ft_puts(void);
+void test_ft_strlen(void);
 #endif

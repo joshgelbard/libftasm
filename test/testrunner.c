@@ -12,5 +12,6 @@ int	main(void)
 	test_ft_toupper();
 	test_ft_tolower();
 	test_ft_puts();
+	test_ft_strlen();
 	return 0;
 }
