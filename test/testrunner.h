@@ -3,10 +3,13 @@
 # include "libfts.h"
 # include <assert.h>
 # include <ctype.h>
+# include <fcntl.h>
 # include <limits.h>
+# include <sys/stat.h>
 # include <stdio.h>
 # include <stdlib.h>
 # include <string.h>
+# include <unistd.h>
 
 void test_ft_bzero(void);
 void test_ft_strcat(void);
@@ -22,4 +25,5 @@ void test_ft_strlen(void);
 void test_ft_memset(void);
 void test_ft_memcpy(void);
 void test_ft_strdup(void);
+void test_ft_cat(void);
 #endif

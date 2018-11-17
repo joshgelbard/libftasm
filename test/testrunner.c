@@ -16,5 +16,6 @@ int	main(void)
 	test_ft_memset();
 	test_ft_memcpy();
 	test_ft_strdup();
+	test_ft_cat();
 	return 0;
 }
