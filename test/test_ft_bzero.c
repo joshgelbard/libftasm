@@ -41,7 +41,7 @@ static void perf_try(void *input, size_t sz, size_t times)
 		ft_bzero(input, sz);
 	time_t ours = clock() - start;
 	printf("ft_bzero: %f\n", (double)ours / CLOCKS_PER_SEC);
-	printf("loss: %.5f\n", ((double)ours / times) / ((double)theirs / times));
+	printf("loss: %.3f\n", ((double)ours / times) / ((double)theirs / times));
 }
 
 static void test_performance(void)
@@ -53,12 +53,12 @@ static void test_performance(void)
 	char big[32768];
 	char huge[32768*8];
 
-	perf_try(tiny, sizeof(tiny), BILLION);
-	perf_try(verysmall, sizeof(verysmall), BILLION);
-	perf_try(small, sizeof(small), BILLION);
-	perf_try(medium, sizeof(medium), MILLION);
+	perf_try(tiny, sizeof(tiny), 100 * MILLION);
+	perf_try(verysmall, sizeof(verysmall), 100 * MILLION);
+	perf_try(small, sizeof(small), 100 * MILLION);
+	perf_try(medium, sizeof(medium), 10 * MILLION);
 	perf_try(big, sizeof(big), MILLION);
-	perf_try(huge, sizeof(huge), MILLION);
+	perf_try(huge, sizeof(huge), MILLION / 10);
 }
 
 void	test_ft_bzero(void)

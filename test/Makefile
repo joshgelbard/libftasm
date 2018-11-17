@@ -1,7 +1,7 @@
 NAME = testrunner
 
 CC = gcc
-CFLAGS += -Wall -Wextra -pedantic -I.. -g
+CFLAGS += -Wall -Wextra -Wno-unused-function -pedantic -I.. -g
 LDFLAGS += -L..
 LDLIBS += -lfts
 
