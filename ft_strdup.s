@@ -4,6 +4,7 @@
 
 	section	.text
 _ft_strdup:
+	cld
 	push	rdi ; preserve s1
 ; get size of source string and send it to malloc
 	xor		eax, eax

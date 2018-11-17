@@ -3,6 +3,7 @@
 
 	section	.text
 _ft_memset:
+	cld
 	mov		r8, rdi ; destination address -- save to return later
 	mov		eax, esi ; fill byte
 	mov		rcx, rdx ; len
