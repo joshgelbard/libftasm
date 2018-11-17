@@ -19,6 +19,7 @@ OBJ = $(NAME).o \
 	  test_ft_strlen.o \
 	  test_ft_memset.o \
 	  test_ft_memcpy.o \
+	  test_ft_strdup.o \
 
 all: $(NAME)
 

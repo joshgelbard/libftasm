@@ -17,6 +17,7 @@ OBJ = ft_bzero.o \
 	  ft_strlen.o \
 	  ft_memset.o \
 	  ft_memcpy.o \
+	  ft_strdup.o \
 
 all: $(NAME)
 
